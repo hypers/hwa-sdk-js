@@ -1,0 +1,37 @@
+{
+  "name": "@hypers/hwa-sdk",
+  "version": "0.1.0",
+  "description": "Hyper Web Analytics JS SDK",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "scripts": {
+    "build": "gulp build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hypers/hwa-sdk-js.git"
+  },
+  "keywords": [
+    "tracker"
+  ],
+  "author": "Hypers",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/hypers/hwa-sdk-js/issues"
+  },
+  "homepage": "https://github.com/hypers/hwa-sdk-js#readme",
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/plugin-proposal-class-properties": "^7.10.1",
+    "@babel/preset-env": "^7.10.2",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0"
+  },
+  "files": [
+    "README.md",
+    "lib",
+    "es"
+  ]
+}

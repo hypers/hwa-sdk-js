@@ -1,0 +1,7 @@
+syntax: glob
+
+.DS_Store
+node_modules
+.idea
+/es
+/lib

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+</head>
+
+<body>
+    <script type="module">
+        import HyperWebAnalytics from '../es/index.js';
+
+        const hwa = new HyperWebAnalytics();
+
+        hwa.create('id');
+        hwa.identify({ alipay_id: 'd' });
+        hwa.sendPageview();
+
+    </script>
+</body>
+
+</html>
